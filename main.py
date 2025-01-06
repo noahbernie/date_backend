@@ -46,7 +46,7 @@ if __name__ == "__main__":
         print("Twitter")
         print(twitter_usernames)
 
-    print("Thanks for trying this out NIGGA")
+    print("Thanks for trying this out BOI")
 
     print("Feel free to try again")
     

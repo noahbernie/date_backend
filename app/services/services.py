@@ -72,6 +72,7 @@ def filter_results(results):
 
         if score > score_threshold and 'instagram.com' in url:
             # Extract the username from the URL
+            print(url)
             username = url.split("instagram.com/")[1].split('/')[0]
             instagram_usernames.append(username)
 
@@ -89,7 +90,7 @@ def filter_results(results):
             # Extract the username from the URL
             username = url.split("x.com/")[1].split('/')[0]
             twitter_usernames.append(username)
-            
+
     return instagram_usernames, linkedin_usernames, twitter_usernames, facebook_usernames
 
 def is_valid_url(url):
