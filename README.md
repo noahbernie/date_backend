@@ -4,8 +4,6 @@ source venv/bin/activate  # Activate the virtual environment
 
 pip install -r requirements.txt
 
-pip install requests
-
 python main.py 
 
 add path to your png
